@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        body {
+            background-color: gray;
+            padding: 45px;
+        }
+
+        .card {
+            background-color: white;
+            width: 260px;
+            height: 515px;
+
+            border-radius: 14px;
+
+        }
+
+        .card img {
+            padding: 18px;
+            max-width: 100%;
+            border-radius: 7px;
+
+        }
+       
+        h2{
+            padding: 0 13px;
+        }
+
+    
+        p{
+            padding:0 10px ;
+            color: gray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+
+        }
+
+        .capsule {
+            padding: 0 15px  0;
+        }
+
+        .capsule span{
+            border: 1px solid gray;
+            padding:0 6px;
+            border-radius: 7px;
+            font-size: 10;
+
+        }
+        .button{
+            text-align: center;
+        }
+        .button button{
+            padding: 7px 9px ;
+            border-radius: 9px;
+            background-color: rgb(210, 229, 239);
+            color: #6c91ed;
+            border: none;
+            margin-top: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .button button:hover{
+            background-color: rgb(231, 237, 240);
+            color: #6c91ed;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="messi">
+            <img src="messi.jpeg" alt="">
+        </div>
+        <div class="capsule">
+            <span>Sports</span>
+            <span>Player</span>
+        </div>
+        <div class="content"></div>
+        <h2>Leonel messi</h2>
+        <p>Lionel Messi is an Argentine-born football (soccer) player who has been named the world's best men's player
+            of the year seven times (2009–12, 2015, 2019, and 2021). In 2022 he helped Argentina win the World Cup.</p>
+            <div class="button">
+                <button>Ok11</button>
+            </div>
+    </div>
+</body>
+
+</html>
